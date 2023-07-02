@@ -1,0 +1,4 @@
+Sitemap: https://companion.1labs4.us/sitemap.xml
+
+User-agent: *
+Disallow: /api
