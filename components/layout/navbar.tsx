@@ -35,16 +35,12 @@ export default function NavBar({ session }: { session: Session | null }) {
             <p>🧩 AI companion</p>
           </Link>
           <div>
-            {session ? (
-              <UserDropdown session={session} />
-            ) : (
-              <button
-                className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
-                onClick={() => setShowSignInModal(true)}
-              >
-                Sign In
-              </button>
-            )}
+            <Link
+              href="/generate"
+              className="rounded-full border-2 border-black p-1.5 px-4 text-sm transition-all hover:text-gray-600"
+            >
+              Generate
+            </Link>
           </div>
         </div>
       </div>
