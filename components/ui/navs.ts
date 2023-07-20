@@ -6,7 +6,7 @@ export type TNavs = {
 
 export const navs: { name: string; items: TNavs[] }[] = [
   {
-    name: "All",
+    name: "Writing",
     items: [
       {
         name: "🧑‍🤝‍🧑 Social Media",
